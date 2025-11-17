@@ -1,0 +1,66 @@
+name: book_store
+description: "A Book Store Mobile App"
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  carousel_slider: ^5.1.1
+  curved_navigation_bar: ^1.0.6
+  flutter_rating_bar: ^4.0.1
+  firebase_core: ^4.2.0
+  cloud_firestore: ^6.0.3
+  firebase_storage: ^13.0.3
+  firebase_messaging: ^16.0.3
+  firebase_auth: ^6.1.1
+  google_sign_in: ^7.2.0
+  flutter_animate: ^4.5.0
+  animated_rating_stars: ^1.0.1
+  flutter_svg: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Logos/Logo_Pale.png"
+  min_sdk_android: 22
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Bestselling/
+    - assets/images/Featured Titles/
+    - assets/images/Genres/
+    - assets/images/History/
+    - assets/images/Logos/
+    - assets/images/on_boarding/
+    - assets/images/Our Books/
+    - assets/images/Recently Viewed/
+    - assets/images/Search/
+    - assets/images/User Profile/
+    - assets/svgs/
+
+  fonts:
+    - family: kodeMono
+      fonts:
+        - asset: assets/fonts/KodeMono-VariableFont_wght.ttf
+          style: italic
+flutter_intl:
+  enabled: true

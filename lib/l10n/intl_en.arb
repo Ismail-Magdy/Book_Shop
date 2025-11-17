@@ -1,0 +1,10 @@
+{
+    "Next_button":"Next",
+    "@Next_button": {},
+
+    "Login":"Login",
+    "@Login": {},
+
+    "SignUp":"SignUp",
+    "@SignUp": {}
+}
